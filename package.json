@@ -1,0 +1,23 @@
+{
+  "name": "sufari-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Matthew",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "axios": "^1.13.6",
+    "bloxlink-api-sdk": "^1.0.1-dev",
+    "cookie-parser": "^1.4.7",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "node-fetch": "^2.7.0"
+  }
+}
