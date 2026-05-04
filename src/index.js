@@ -171,14 +171,16 @@ client.on("guildMemberAdd", async (member) => {
 
   const rulesUrl = `https://discord.com/channels/${member.guild.id}/${RULES_CHANNEL_ID}`;
 
+  
+
   const welcomeEmbed = new EmbedBuilder()
     .setColor("#50C878")
     .setTitle("<:SOELAINITIAL:1419871723083268136>  Welcome to Soela's Community Server!")
     .setDescription(
       [
-        `Greetings, <@${member.id}>, and welcome to **Soela's Community Server!** Soela is a refined Roblox experience centered around community, creativity, and elegant hospitality. Our team is committed to creating immersive and memorable experiences for every guest who joins us.`,
+        `Hello, <@${member.id}>. Welcome to Soela’s community server. We’re glad to have you here! This space is all about creating a fun and welcoming environment where you can connect with people from all kinds of backgrounds.`,
         ``,
-        `-# Please take a moment to review our rules and explore our Roblox Group below. We are delighted to have you with us.`
+        `-# Please take a moment to review the server rules and enjoy your stay. You can also check out our Roblox group using the buttons below.`
       ].join("\n")
     )
     .setImage("https://cdn.discordapp.com/attachments/1496212937138769951/1500242330194677861/Banner_w_only_text.png?ex=69f7b90c&is=69f6678c&hm=3ebb7bdd757bc93be77a62c3ebe7e5a37ab54d39f11213fc269f73c690763b9d")
